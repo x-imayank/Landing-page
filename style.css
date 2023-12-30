@@ -197,13 +197,43 @@ header {
 
 .features-card{
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     gap: 20px;
     max-width: 30%;
-
+    margin-top: 20px
+    
 }
 
 .features-area{
     flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    background-image: url(assets/asset\ 32.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/* Big features */
+
+.big-feature{
+    padding: 30px var(--padding-inline-section) 0;
+}
+
+.big-feature-container{
+    gap: 30px;
+    /* flex-direction: column; */
+}
+
+.side-image img{
+    width: 100%;
+}
+.side-text{
+  flex-direction: column;  
+  align-items: flex-start;
+  /* justify-content: center; */
+  margin-top: 150px;
+  gap: 20px;
 }
