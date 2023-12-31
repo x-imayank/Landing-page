@@ -111,11 +111,13 @@ ul {
 }
 
 .company-logo img {
-    width: 200px;
+    padding: var(--padding-inline-section);
+    margin-top: ;
+    width: 15vw;
 }
 
 .company-logo {
-    padding: 7px;
+    padding: 5px;
 }
 
 .nav-link {
@@ -139,10 +141,13 @@ header {
 .header-section {
     justify-content: center;
     gap: 50px;
+    background-image: url(/assets/wave\ \(1\).svg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .header-right img {
-    width: 600px;
+    width: 35vw;
 }
 
 .header-left {
@@ -150,7 +155,7 @@ header {
 }
 
 .header-left h1 {
-    margin-top: 20px;
+    margin-top: 90px;
 }
 
 .get-started {
